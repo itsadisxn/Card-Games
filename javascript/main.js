@@ -24,18 +24,40 @@
     }
 
     class Card {
-        constructor() {
+        constructor(suit, rank, value) {
             //Value
+            this.value = value;
             //Suit
-            //Flip
+            this.suit = suit;
+            //Rank
+            this.rank = rank;
         }    
+
+        cardFlip(){
+
+        }
+
+        cardDrag(){
+
+        }
+
+        cardDrop(){
+            
+        }
     }
 
     class DiscardPile {
-        constructor() {
-            //Holders
-            //Accept or Reject
+        constructor(rules, count) {
+            this.rules = rules;
+            this.count = count;
+        }
+
+        cardDragOver(){
+            
         }
     }
+
+
+
 })(window);
 
