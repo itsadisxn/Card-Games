@@ -11,7 +11,7 @@ This project builds a number of card games using reusable objects. The games tha
 
 The reusable objects that are being used are as follows:
 
->>> GAME <<<
+> GAME 
 -----------------------
 1. Game
 -----------------------
@@ -25,7 +25,7 @@ Functions
  - play()
 -----------------------
 
->>> DECK <<<
+> DECK 
 -----------------------
 2. Deck
 -----------------------
@@ -42,7 +42,7 @@ Functions
 -----------------------
 
 
->>> CARD <<<
+> CARD
 -----------------------
 3. Card
 -----------------------
@@ -59,7 +59,7 @@ Functions
 -----------------------
 
 
->>> DISCARD PILE <<<
+> DISCARD PILE 
 -----------------------
 4. Discard Pile
 -----------------------
